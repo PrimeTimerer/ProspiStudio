@@ -343,7 +343,7 @@ ON인데 효과가 없으면 모드·선수/팀 조작 방식, 대상과 포함 
 
 전체 변경 기록: CHANGES_0_7_159_TO_222.ko.md
 
-배포 파일은 Prospi26Studio.Single.exe이며 0.7.222 공개 패키지는 21,866,522바이트입니다. SHA-256은 FA7E65CA5EBC31F8BBD6C0099B35D186A190CD129D6FC9AD149D52DED25AB010입니다.
+배포 파일은 Prospi26Studio.Single.exe이며 0.7.222 공개 패키지는 21,868,570바이트입니다. SHA-256은 BFFC83D0381754383881FDEE1B8D43EB5E51F2D557B93B7EC5C7F21F6C3A4506입니다.
 
 ## 27 번호키·[*]를 내 팀 전체나 양 팀에 쓰기
 
