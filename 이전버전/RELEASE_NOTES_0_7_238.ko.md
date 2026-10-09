@@ -5,9 +5,9 @@
 ## 다운로드와 사용법
 
 - Assets의 **Prospi26Studio.Single.exe**를 받으세요. Source code 압축파일은 실행파일이 아닙니다.
-- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/USER_GUIDE_0_7_238.ko.md) (새 내용은 124~129장)
-- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/manual/PROSPI26_Studio_0.7.238_사용설명서.pdf)
-- [0.7.159~0.7.238 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/CHANGES_0_7_159_TO_238.ko.md)
+- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/USER_GUIDE_0_7_238.ko.md) (새 내용은 124~129장)
+- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/manual/PROSPI26_Studio_0.7.238_사용설명서.pdf)
+- [0.7.159~0.7.238 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/CHANGES_0_7_159_TO_238.ko.md)
 
 ## 새로 추가된 기능 (0.7.235~0.7.238)
 
