@@ -1,15 +1,15 @@
 # PROSPI 26 STUDIO 0.7.245
 
-**정정(0.7.246)**: 아래 '경력 (외국인 구분)' 설명의 '게임은 외국인 슬롯을 이 값으로 판단합니다'는 틀렸습니다. 외국인 슬롯은 0.7.246에서 생긴 '외국인 슬롯' 칸입니다. [0.7.246 릴리스 노트](RELEASE_NOTES_0_7_246.ko.md)
+**정정(0.7.246)**: 아래 '경력 (외국인 구분)' 설명의 '게임은 외국인 슬롯을 이 값으로 판단합니다'는 틀렸습니다. 외국인 슬롯은 0.7.246에서 생긴 '외국인 슬롯' 칸입니다. [0.7.246 릴리스 노트](../RELEASE_NOTES_0_7_246.ko.md)
 
 **게임 2.3.0용입니다.** 직전 공개판 0.7.244 이후의 추가입니다. 로컬·오프라인 싱글플레이 전용입니다.
 
 ## 다운로드와 사용법
 
 - Assets의 **Prospi26Studio.Single.exe**를 받으세요. Source code 압축파일은 실행파일이 아닙니다.
-- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/USER_GUIDE_0_7_245.ko.md) (새 내용은 155~156장)
-- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/manual/PROSPI26_Studio_0.7.245_사용설명서.pdf)
-- [0.7.159~0.7.245 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/CHANGES_0_7_159_TO_245.ko.md)
+- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/USER_GUIDE_0_7_245.ko.md) (새 내용은 155~156장)
+- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/manual/PROSPI26_Studio_0.7.245_사용설명서.pdf)
+- [0.7.159~0.7.245 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/CHANGES_0_7_159_TO_245.ko.md)
 
 ## 새로 생긴 것
 
