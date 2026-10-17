@@ -3,6 +3,7 @@
 현재 버전과 직전 버전의 문서는 [저장소 첫 화면](../README.md)에 있습니다. 여기는 그보다 이전 공개판의 설명서·변경 기록·릴리스 노트·PDF입니다.
 실행 파일은 각 버전의 [릴리스 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases)에서 받으세요.
 
+- **0.7.259**: [사용 설명서](USER_GUIDE_0_7_259.ko.md) · [변경 기록](CHANGES_0_7_159_TO_259.ko.md) · [릴리스 노트](RELEASE_NOTES_0_7_259.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.259_사용설명서.pdf)
 - **0.7.258**: [사용 설명서](USER_GUIDE_0_7_258.ko.md) · [변경 기록](CHANGES_0_7_159_TO_258.ko.md) · [릴리스 노트](RELEASE_NOTES_0_7_258.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.258_사용설명서.pdf)
 - **0.7.257**: [사용 설명서](USER_GUIDE_0_7_257.ko.md) · [변경 기록](CHANGES_0_7_159_TO_257.ko.md) · [릴리스 노트](RELEASE_NOTES_0_7_257.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.257_사용설명서.pdf)
 - **0.7.255**: [사용 설명서](USER_GUIDE_0_7_255.ko.md) · [변경 기록](CHANGES_0_7_159_TO_255.ko.md) · [릴리스 노트](RELEASE_NOTES_0_7_255.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.255_사용설명서.pdf)
