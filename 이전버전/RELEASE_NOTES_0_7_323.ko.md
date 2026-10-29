@@ -6,9 +6,9 @@
 
 - Assets의 **Prospi26Studio.Single.exe**를 받으세요. Source code 압축파일은 실행파일이 아닙니다.
 - 이번 0.7.323은 직접 받아야 합니다(0.7.320에는 업데이트 기능이 없습니다). 0.7.323부터는 새 공개판이 나오면 Studio를 켤 때 알려 줍니다.
-- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/USER_GUIDE_0_7_323.ko.md) (새 내용은 243~247장)
-- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/manual/PROSPI26_Studio_0.7.323_사용설명서.pdf)
-- [0.7.159~0.7.323 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/CHANGES_0_7_159_TO_323.ko.md)
+- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/USER_GUIDE_0_7_323.ko.md) (새 내용은 243~247장)
+- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/manual/PROSPI26_Studio_0.7.323_사용설명서.pdf)
+- [0.7.159~0.7.323 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/CHANGES_0_7_159_TO_323.ko.md)
 
 ## 바뀐 것 (0.7.321~0.7.323)
 
