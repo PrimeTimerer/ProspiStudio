@@ -1,22 +1,38 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.357** · 작성일 2026-10-29 · 게임 **2.3.0**용
+공개 다운로드: **0.7.359** · 작성일 2026-10-29 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.357 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.357-public)
+[**0.7.359 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.359-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.357_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_357.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.357까지](CHANGES_0_7_159_TO_357.ko.md)
-- 직전 버전 0.7.331: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.331-public) · [사용 설명서](USER_GUIDE_0_7_331.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.331_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_331.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.359_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_359.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.359까지](CHANGES_0_7_159_TO_359.ko.md)
+- 직전 버전 0.7.357: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.357-public) · [사용 설명서](USER_GUIDE_0_7_357.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.357_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_357.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.359 - 빅리그식 타격 핫·콜드 존 · 세기 · 스틱 화살표 · 스틱 카메라
+
+게임 2.3.0용입니다. 0.7.357 다음 변경(0.7.358~0.7.359)입니다. [자세한 내용](USER_GUIDE_0_7_359.ko.md) (264장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **핫·콜드 존 (0.7.358)**: 빅리그식 타격(클래식)에서 타자의 코스별 핫존·콜드존(게임에 있는 그 타자의 기록, 읽기만 함)이 판정 범위에 들어갑니다. 핫존 코스는 더 잘 맞고 콜드존 코스는 덜 맞습니다.
+- **기본 능력 기록 (0.7.358)**: 스윙 기록에 핫존 칸과 그 세기, 타자의 기본 미트(우투·좌투 상대)와 파워가 게임 값과 함께 나옵니다.
+- **스틱 화살표 (0.7.358, 기본 켜짐)**: 내 타석에서 좌측 스틱을 넣은 방향이 게임 화면의 존 옆에 작은 화살표로 나옵니다(8방향, 중립이면 안 나옴). 위치는 타격 탭의 ‘화살표 위치’로 옮기고(우타자 기준, 좌타자는 좌우 반대), 게임이 테두리 없는 창 모드로 맨 앞에 있을 때 보입니다.
+- **스틱 카메라 (0.7.358, 기본 1°)**: 내 타석에서 스틱을 넣은 쪽으로 시점이 살짝 돌아갑니다(위아래는 그 절반). 타격 탭의 ‘스틱 카메라 기울기’로 0~3°를 고르고, 0이면 꺼집니다. 타석이 아닐 때는 바로 원래 시점입니다.
+- **핫·콜드 존 세기 (0.7.359)**: 타격 탭에서 ×1~×4를 고릅니다. ×1(기본)은 0.7.358과 같고, 올릴수록 핫존·콜드존의 차이가 커집니다. 스윙 기록에 ‘(세기 ×n)’이 나옵니다.
+
+예전과 달라지는 점(0.7.357 대비): 빅리그식 타격(기본 꺼짐)을 켰을 때만 달라집니다. 켜면 핫·콜드 존이 판정에 들어가고(세기 ×1), 좌측 스틱이 ‘방향’(기본)일 때 스틱 화살표와 스틱 카메라(1°)가 켜집니다(타격 탭에서 끄거나 0). 그 밖의 기능은 0.7.357과 같습니다.
 
 ## 0.7.357 - 빅리그식 타격 · 타격 탭 · 스윙 타이밍 표시 · 빅리그식 타구 · 투구폼별 미터 · CPU 선발 강판 · 지명타자 고정 · 실데이터 앞 공 영향
 
@@ -59,7 +75,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.331 - 파워 → 구속·변화량 · 이름 ‘빅리그식 조작 시스템’ · 빅리그식 조작 시스템 제구 랜덤 · 영어 화면 (English) · 빅리그식 조작 시스템 미터 투구 · 빅리그식 조작 시스템 곡선 미터 · 베스트9 센트럴 DH 부문 · 빅리그식 조작 시스템
 
-게임 2.3.0용입니다. 0.7.323 다음 변경(0.7.324~0.7.331)입니다. [자세한 내용](USER_GUIDE_0_7_331.ko.md) (248~254장)
+게임 2.3.0용입니다. 0.7.323 다음 변경(0.7.324~0.7.331)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_331.ko.md) (248~254장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -1651,12 +1667,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.357` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,083,738 bytes`
+- 앱 버전: `0.7.359` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,093,978 bytes`
 - SHA-256:
 
 ```text
-9E00AA1CFAE298442A8C47C8DB0698B13261BF44D2B5B978DE9F7AF0915E0D05
+E5F05C9037276F819404B3E728040610486D1AB07489CF996CD225D2C02A6284
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
