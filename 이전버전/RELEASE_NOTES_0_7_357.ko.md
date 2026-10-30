@@ -8,9 +8,9 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 - Assets의 **Prospi26Studio.Single.exe**를 받으세요. Source code 압축파일은 실행파일이 아닙니다.
 - 0.7.323·0.7.329·0.7.331을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
-- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/USER_GUIDE_0_7_357.ko.md) (새 내용은 255~263장)
-- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/manual/PROSPI26_Studio_0.7.357_사용설명서.pdf)
-- [0.7.159~0.7.357 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/CHANGES_0_7_159_TO_357.ko.md)
+- [전체 사용법](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/USER_GUIDE_0_7_357.ko.md) (새 내용은 255~263장)
+- [PDF 사용 설명서](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/manual/PROSPI26_Studio_0.7.357_사용설명서.pdf)
+- [0.7.159~0.7.357 변경 기록](https://github.com/PrimeTimerer/ProspiStudio/blob/main/이전버전/CHANGES_0_7_159_TO_357.ko.md)
 
 ## 바뀐 것 (0.7.332~0.7.357)
 
