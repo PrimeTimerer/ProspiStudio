@@ -1,22 +1,34 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.384** · 작성일 2026-11-02 · 게임 **2.3.0**용
+공개 다운로드: **0.7.385** · 작성일 2026-11-02 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.384 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.384-public)
+[**0.7.385 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.385-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.384_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_384.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.384까지](CHANGES_0_7_159_TO_384.ko.md)
-- 직전 버전 0.7.383: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.383-public) · [사용 설명서](USER_GUIDE_0_7_383.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.383_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_383.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.385_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_385.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.385까지](CHANGES_0_7_159_TO_385.ko.md)
+- 직전 버전 0.7.384: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.384-public) · [사용 설명서](USER_GUIDE_0_7_384.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.384_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_384.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.385 - 게임 화면 표시에 출처 문구가 붙던 문제 수정 (공개판)
+
+게임 2.3.0용입니다. 0.7.384 다음 변경입니다. [자세한 내용](USER_GUIDE_0_7_385.ko.md) (280장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384를 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **게임 화면 표시에 출처 문구가 붙던 문제 수정 (0.7.385, 공개판)**: 공개판에서 게임 화면 위의 투구 게이지·스틱 화살표·스윙 종류·타이밍 표시 아래에 출처 표시줄(‘PROSPI 26 STUDIO · 공식 배포’)이 같이 뜨던 문제를 고쳤습니다(갤러리 제보). 출처 표시는 Studio 창과 패널에만 나옵니다. 기능 동작은 같습니다.
+
+예전과 달라지는 점(0.7.384 대비): 게임 화면 위 표시에 출처 문구가 붙지 않습니다. 나머지는 0.7.384와 같습니다.
 
 ## 0.7.384 - 게이지 옮기기 중 Studio가 꺼질 수 있던 문제 수정
 
@@ -32,7 +44,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.383 - 미터 게이지를 존 옆에 · 게이지 위치·크기·좌우 반전 · 패드를 놓치지 않게 · 키보드·마우스로 바로 투구
 
-게임 2.3.0용입니다. 0.7.380 다음 변경(0.7.381~0.7.383)입니다. [자세한 내용](USER_GUIDE_0_7_383.ko.md) (278장)
+게임 2.3.0용입니다. 0.7.380 다음 변경(0.7.381~0.7.383)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_383.ko.md) (278장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -1784,12 +1796,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.384` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 앱 버전: `0.7.385` (공개판 · 출처 표시 포함, 게임 2.3.0용)
 - 파일 크기: `100,233,242 bytes`
 - SHA-256:
 
 ```text
-57833DA06C886310E017D0F5FB8044EC1DB7996E3E949D6F46AC188A5EF562EB
+18692975A96943B535A4E24BD350365FB1BE36CA46C732A57EF192E617E409BF
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
