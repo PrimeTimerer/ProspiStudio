@@ -1,22 +1,34 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.390** · 작성일 2026-11-03 · 게임 **2.3.0**용
+공개 다운로드: **0.7.391** · 작성일 2026-11-03 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.390 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.390-public)
+[**0.7.391 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.391-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.390_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_390.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.390까지](CHANGES_0_7_159_TO_390.ko.md)
-- 직전 버전 0.7.389: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.389-public) · [사용 설명서](USER_GUIDE_0_7_389.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.389_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_389.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.391_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_391.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.391까지](CHANGES_0_7_159_TO_391.ko.md)
+- 직전 버전 0.7.390: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.390-public) · [사용 설명서](USER_GUIDE_0_7_390.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.390_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_390.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.391 - 빅리그식 타격 타구 현실화
+
+게임 2.3.0용입니다. 0.7.390 다음 변경입니다. [자세한 내용](USER_GUIDE_0_7_391.ko.md) (286장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **빅리그식 타격 타구 현실화 (0.7.391, 클래식)**: 한 경기에 홈런이 너무 많이 나오던 문제(GitHub 이슈 #12)를 손봤습니다. 땅볼·라인드라이브·뜬공 비율을 빅리그 타구 통계에 맞췄습니다. 스틱 중립으로 정타를 맞히면 강한 라인드라이브·땅볼이 많이 나오고, 홈런·장타는 파워 스윙에 스틱을 위로 넣어 정타를 맞힐 때 주로 나옵니다. 빗맞은 뜬공과 이르거나 늦은 스윙은 덜 멀리 갑니다. 빅리그식 타격 설정에 ‘타구 현실화’ 슬라이더(0~150%, 기본 100%)를 더했고, 0%면 이전 분포입니다. PCI(배트 커서) 방식은 바뀌지 않습니다.
+
+예전과 달라지는 점(0.7.390 대비): 빅리그식 타격(클래식)의 타구 분포가 바뀌었습니다(기본 100%). ‘타구 현실화’ 슬라이더를 0%로 두면 예전 분포 그대로이고, PCI(배트 커서) 방식은 같습니다.
 
 ## 0.7.390 - 투구 전 체크 스윙 뒤 장면이 넘어가지 않던 문제 수정
 
@@ -32,7 +44,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.389 - 다음 투구 준비를 새 투구로 잘못 세던 문제 수정
 
-게임 2.3.0용입니다. 0.7.388 다음 변경입니다. [자세한 내용](USER_GUIDE_0_7_389.ko.md) (284장)
+게임 2.3.0용입니다. 0.7.388 다음 변경입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_389.ko.md) (284장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -1856,12 +1868,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.390` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,235,290 bytes`
+- 앱 버전: `0.7.391` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,236,314 bytes`
 - SHA-256:
 
 ```text
-E9D26199635141BF0EF5A20C2C2B5B8E886C693F689CDE8F37429BFADA86925E
+0B22609A6D58718013AFA223ED2C3ECCE320A523328BE75AFBF7AD7F38A64A0A
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
