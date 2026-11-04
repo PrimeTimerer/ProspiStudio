@@ -1,22 +1,34 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.397** · 작성일 2026-11-04 · 게임 **2.3.0**용
+공개 다운로드: **0.7.398** · 작성일 2026-11-04 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.397 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.397-public)
+[**0.7.398 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.398-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.397_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_397.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.397까지](CHANGES_0_7_159_TO_397.ko.md)
-- 직전 버전 0.7.396: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.396-public) · [사용 설명서](USER_GUIDE_0_7_396.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.396_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_396.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.398_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_398.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.398까지](CHANGES_0_7_159_TO_398.ko.md)
+- 직전 버전 0.7.397: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.397-public) · [사용 설명서](USER_GUIDE_0_7_397.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.397_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_397.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.398 - 선택 목록 위치 수정
+
+게임 2.3.0용입니다. 0.7.397 다음 변경입니다. [자세한 내용](USER_GUIDE_0_7_398.ko.md) (293장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **선택 목록 위치 수정 (0.7.398)**: 4K 등 화면 배율이 큰 모니터에서 선택 상자의 목록이 엉뚱한 곳에 뜨고, 창을 최대화하거나 Ctrl+휠로 확대하면 화면 밖으로 나가던 문제를 고쳤습니다. 이제 목록을 Studio 화면 안에서 그려서 선택 상자 바로 아래(아래 공간이 없으면 바로 위)에 뜨고, 긴 목록은 창 안에서 스크롤됩니다(GitHub 이슈 #14).
+
+예전과 달라지는 점(0.7.397 대비): 선택 상자의 목록이 윈도우 기본 목록 대신 Studio 화면 안에 그려져 선택 상자 바로 아래(공간이 없으면 바로 위)에 뜹니다. WebView2가 오래된 PC에서는 이전과 같습니다.
 
 ## 0.7.397 - 체크 스윙 멈춤·판정 수정
 
@@ -33,7 +45,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.396 - 투구 중 체크 뒤 투구 전 연습·체크 스윙이 걸리지 않던 문제 수정
 
-게임 2.3.0용입니다. 0.7.395 다음 변경입니다. [자세한 내용](USER_GUIDE_0_7_396.ko.md) (291장)
+게임 2.3.0용입니다. 0.7.395 다음 변경입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_396.ko.md) (291장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -1919,12 +1931,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.397` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,263,450 bytes`
+- 앱 버전: `0.7.398` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,263,962 bytes`
 - SHA-256:
 
 ```text
-71EBE7FA8D0B4C308AF8585C922437DD65F0B010CBD330F77B215DD7A1E93D08
+9F2A9CA75F029005AD893BAA8B9A2D7CA5F8891576081203036B3A16046A5774
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
