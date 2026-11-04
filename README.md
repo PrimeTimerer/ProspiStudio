@@ -1,22 +1,34 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.394** · 작성일 2026-11-04 · 게임 **2.3.0**용
+공개 다운로드: **0.7.395** · 작성일 2026-11-04 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.394 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.394-public)
+[**0.7.395 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.395-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.394_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_394.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.394까지](CHANGES_0_7_159_TO_394.ko.md)
-- 직전 버전 0.7.391: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.391-public) · [사용 설명서](USER_GUIDE_0_7_391.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.391_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_391.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.395_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_395.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.395까지](CHANGES_0_7_159_TO_395.ko.md)
+- 직전 버전 0.7.394: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.394-public) · [사용 설명서](USER_GUIDE_0_7_394.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.394_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_394.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.395 - 타구 현실화: 완벽 타이밍 범위와 타구 속도 하한 조정
+
+게임 2.3.0용입니다. 0.7.394 다음 변경입니다. [자세한 내용](USER_GUIDE_0_7_395.ko.md) (290장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394를 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **타구 현실화: 완벽 타이밍 범위와 타구 속도 하한 조정 (0.7.395, 클래식)**: 빅리그식 타격(클래식)의 ‘타구 현실화’가 100%(기본)일 때 완벽 타이밍 범위가 빅리그처럼 좋음 범위의 이른 쪽으로 좁아집니다(화면의 완벽 표시도 같습니다). 완벽·정타 타구에 걸려 있던 속도 하한(시속 150~185km)을 없애 타구 속도가 타자 파워를 따릅니다. 시속 180km가 넘는 타구와 장타가 줄어듭니다. 0%면 이전과 같습니다(GitHub 이슈 #12).
+
+예전과 달라지는 점(0.7.394 대비): ‘타구 현실화’ 100%(기본)에서 완벽 타이밍 범위가 좁아지고 완벽·정타 타구의 속도 하한이 없어져, 시속 180km가 넘는 타구와 장타가 줄어듭니다. 0%면 이전과 같고, PCI(배트 커서) 방식은 그대로입니다.
 
 ## 0.7.394 - 연봉 상한 바꾸기 (LAB) · 연봉 상한 적용 범위 · CPU 타자 포함일 때 CPU 타자가 스윙하지 않던 문제 수정
 
@@ -34,7 +46,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.391 - 빅리그식 타격 타구 현실화
 
-게임 2.3.0용입니다. 0.7.390 다음 변경입니다. [자세한 내용](USER_GUIDE_0_7_391.ko.md) (286장)
+게임 2.3.0용입니다. 0.7.390 다음 변경입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_391.ko.md) (286장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -1882,12 +1894,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.394` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,259,866 bytes`
+- 앱 버전: `0.7.395` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,261,402 bytes`
 - SHA-256:
 
 ```text
-E22E23B3A039ADED75218AC47B5036CD9A7355B0A1AF58EB0B7DF0DA6CC84C15
+66DDFDAD3CE874C9DBCB38FDF53FC577E75EC3949240E3AEB918C1EBD2D3D3D3
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
