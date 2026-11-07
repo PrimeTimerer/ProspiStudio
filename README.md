@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.405** · 작성일 2026-11-07 · 게임 **2.3.0**용
+공개 다운로드: **0.7.406** · 작성일 2026-11-07 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.405 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.405-public)
+[**0.7.406 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.406-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.405_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_405.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.405까지](CHANGES_0_7_159_TO_405.ko.md)
-- 직전 버전 0.7.404: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.404-public) · [사용 설명서](USER_GUIDE_0_7_404.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.404_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_404.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.406_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_406.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.406까지](CHANGES_0_7_159_TO_406.ko.md)
+- 직전 버전 0.7.405: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.405-public) · [사용 설명서](USER_GUIDE_0_7_405.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.405_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_405.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.406 - 베스트 나인 화면 센트럴 지명타자 칸
+
+게임 2.3.0용입니다. 0.7.405 다음 변경(0.7.406)입니다. [자세한 내용](USER_GUIDE_0_7_406.ko.md) (302장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405를 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **베스트 나인 화면 센트럴 지명타자 칸 (0.7.406)**: 센트럴 리그 DH 제도 카드의 ‘베스트9에도 센트럴 DH 부문 (시즌 표창)’을 켜 두면, 시즌 기록의 수상 칸에 이어 게임의 베스트 나인 화면에도 센트럴 리그의 지명타자 칸이 퍼시픽처럼 나옵니다(GitHub 이슈 #15 제보, 페넌트·스타). 수상 선정과 시즌 기록 수상 칸은 지금까지와 같고, 화면에 그 칸만 더 보입니다. 그 옵션을 켜기 전에 치른 시즌은 지명타자 수상 기록이 없어 그 칸이 비거나 맞지 않을 수 있습니다.
+
+예전과 달라지는 점(0.7.405 대비): 베스트 나인 화면은 ‘베스트9에도 센트럴 DH 부문’을 켰을 때만 달라집니다(기본 끔). 끄면 0.7.405와 같습니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 이번 0.7.406도 화면 캡처와 Studio 버전이 정확히 적힌 GitHub 이슈(#15) 덕분에 바로 원인을 찾아 고쳤습니다.
 
 ## 0.7.405 - 빅리그식 타격 무조건 파울
 
@@ -40,7 +54,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.404 - 스타 트레이드 (LAB) · 빅리그식 투구·타격 따로 켜기 · 매트릭스 파울팁
 
-게임 2.3.0용입니다. 0.7.401 다음 변경(0.7.402~0.7.404)입니다. [자세한 내용](USER_GUIDE_0_7_404.ko.md) (298~300장)
+게임 2.3.0용입니다. 0.7.401 다음 변경(0.7.402~0.7.404)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_404.ko.md) (298~300장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -1991,12 +2005,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.405` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,294,170 bytes`
+- 앱 버전: `0.7.406` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,295,194 bytes`
 - SHA-256:
 
 ```text
-A35025F5C791A7D34DD1A19239A6C23E4791890B33E35B1DD240A989DB7EB68E
+F86C43E61E33C8155E7289325985527B79A0DD9E87D50D73FFD6340C02D75B36
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
