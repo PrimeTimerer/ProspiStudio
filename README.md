@@ -1,22 +1,42 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.404** · 작성일 2026-11-06 · 게임 **2.3.0**용
+공개 다운로드: **0.7.405** · 작성일 2026-11-07 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.404 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.404-public)
+[**0.7.405 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.405-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.404_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_404.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.404까지](CHANGES_0_7_159_TO_404.ko.md)
-- 직전 버전 0.7.401: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.401-public) · [사용 설명서](USER_GUIDE_0_7_401.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.401_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_401.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.405_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_405.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.405까지](CHANGES_0_7_159_TO_405.ko.md)
+- 직전 버전 0.7.404: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.404-public) · [사용 설명서](USER_GUIDE_0_7_404.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.404_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_404.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.405 - 빅리그식 타격 무조건 파울
+
+게임 2.3.0용입니다. 0.7.404 다음 변경(0.7.405)입니다. [자세한 내용](USER_GUIDE_0_7_405.ko.md) (301장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404를 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **빅리그식 타격 무조건 파울 (0.7.405)**: 빅리그식 조작 시스템 › 타격 탭에 ‘무조건 파울’ 옵션을 더했습니다(끔 / 내 타석 / CPU 타석 / 모두, 기본 끔). 고른 타석에서 공을 맞히면 0.7.401의 파울팁처럼 포수 뒤 백네트 쪽이나 홈플레이트 뒤 땅으로 가서 타석이 이어집니다(컨셉 플레이용, 갤러리 요청). 헛스윙과 원래 파울팁은 그대로이고, 상황별 매트릭스(F9)와 Num 4~6 타구 궤적 프리셋 다음에 적용됩니다. 빅리그식 타격을 켠 타석에서만 작동하며, CPU 타석은 적용 대상이 ‘CPU 타자 포함’일 때만 씁니다. 아주 드물게 포수가 잡는 경우는 게임 판정 그대로입니다.
+
+예전과 달라지는 점(0.7.404 대비): 무조건 파울은 새 옵션만 더해졌습니다(기본 끔). 끔이면 0.7.404와 같습니다.
+
+문제 제보 방식이 바뀝니다:
+
+- Studio와 CT 둘 다 수만 줄 규모의 큰 프로그램이 되어, 실제 로그와 화면 캡처 없이 설명만으로는 문제를 찾아 고치기가 거의 불가능합니다.
+- 그래서 앞으로 갤러리 댓글로 주신 제보·요청에는 대응하지 않습니다. 문제는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 올려 주세요. 갤러리라면 최소한 따로 글을 쓰고 아래 자료를 모두 붙여 주셔야 확인할 수 있습니다.
+- 함께 올릴 것: Studio 버전, 게임 모드와 상황(경기 중인지 메뉴인지 등), 켠 기능(카드·LAB 이름과 설정), 문제가 생기기까지의 순서, 화면 캡처(Studio 화면과 게임 화면), 로그 파일, 게임이 튕겼다면 크래시 파일
+- 로그: `%LOCALAPPDATA%\Prospi26Studio\logs` 폴더의 최근 파일(빅리그식 조작 시스템의 ‘로그 폴더’ 버튼으로도 열립니다)
+- 크래시 파일: `%LOCALAPPDATA%\prospi\Saved\Crashes`에서 가장 최근 폴더를 통째로 압축(UE4Minidump.dmp 포함)
 
 ## 0.7.404 - 스타 트레이드 (LAB) · 빅리그식 투구·타격 따로 켜기 · 매트릭스 파울팁
 
@@ -34,7 +54,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.401 - 빅리그식 타격 파울팁 방향 수정
 
-게임 2.3.0용입니다. 0.7.400 다음 변경(0.7.401)입니다. [자세한 내용](USER_GUIDE_0_7_401.ko.md) (297장)
+게임 2.3.0용입니다. 0.7.400 다음 변경(0.7.401)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_401.ko.md) (297장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -1971,12 +1991,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.404` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,293,146 bytes`
+- 앱 버전: `0.7.405` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,294,170 bytes`
 - SHA-256:
 
 ```text
-7E0C1F9B5619F2CD21B10991629B7C3ED15B4EAD7188E29378ED283C6D504880
+A35025F5C791A7D34DD1A19239A6C23E4791890B33E35B1DD240A989DB7EB68E
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
