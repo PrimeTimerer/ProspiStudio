@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.407** · 작성일 2026-11-08 · 게임 **2.3.0**용
+공개 다운로드: **0.7.408** · 작성일 2026-11-08 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.407 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.407-public)
+[**0.7.408 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.408-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.407_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_407.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.407까지](CHANGES_0_7_159_TO_407.ko.md)
-- 직전 버전 0.7.406: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.406-public) · [사용 설명서](USER_GUIDE_0_7_406.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.406_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_406.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.408_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_408.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.408까지](CHANGES_0_7_159_TO_408.ko.md)
+- 직전 버전 0.7.407: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.407-public) · [사용 설명서](USER_GUIDE_0_7_407.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.407_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_407.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.408 - 연봉 상한 바꾸기 2차 미팅 튕김 수정
+
+게임 2.3.0용입니다. 0.7.407 다음 변경(0.7.408)입니다. [자세한 내용](USER_GUIDE_0_7_408.ko.md) (304장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **연봉 상한 바꾸기 2차 미팅 튕김 수정 (0.7.408)**: ‘연봉 상한 바꾸기 (LAB)’로 상한을 올린 뒤 연봉이 약 25억엔을 넘는 스타의 연봉 협상에서 1차 미팅을 보류하고 2차 미팅에 들어가면 게임이 꺼지던 문제를 고쳤습니다(GitHub 이슈 #16 제보). 2차 미팅에서 구단이 다시 제시할 금액 후보를 고르는 게임 계산이 원래 상한 20억엔에 맞춘 크기라, 그보다 훨씬 큰 연봉에서는 넘쳐서 게임이 바로 꺼졌습니다(이 경우 크래시 파일도 남지 않습니다). 이제 LAB을 켜 두면 후보 수를 게임이 감당하는 크기로 묶어 2차 미팅이 그대로 진행됩니다. 따로 켤 것은 없습니다.
+
+예전과 달라지는 점(0.7.407 대비): ‘연봉 상한 바꾸기 (LAB)’를 켰을 때 약 25억엔이 넘는 연봉의 2차 미팅에서 구단이 다시 제시하는 인상 폭이 1,000만엔 단위로 최대 6억 2천만엔(그 밖에 원래 인상률 그대로 한 가지와 인상 없음) 안에서 정해집니다. 20억엔 이하 연봉의 협상과 LAB을 끈 상태는 0.7.407과 같습니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.408도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16) 덕분에 바로 원인을 찾아 고쳤습니다.
 
 ## 0.7.407 - 기록의 올스타 화면 센트럴 지명타자 칸
 
@@ -34,7 +48,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.406 - 베스트 나인 화면 센트럴 지명타자 칸
 
-게임 2.3.0용입니다. 0.7.405 다음 변경(0.7.406)입니다. [자세한 내용](USER_GUIDE_0_7_406.ko.md) (302장)
+게임 2.3.0용입니다. 0.7.405 다음 변경(0.7.406)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_406.ko.md) (302장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2019,12 +2033,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.407` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,296,218 bytes`
+- 앱 버전: `0.7.408` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,297,754 bytes`
 - SHA-256:
 
 ```text
-AECC59E698136100D7C01CCC9EFA6000DF77B6FC15E28FEF9073F4A52EBC283B
+878B0F90510E464605762C6995735A631593388184EF38121680A915236E8263
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
