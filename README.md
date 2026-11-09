@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.413** · 작성일 2026-11-10 · 게임 **2.3.0**용
+공개 다운로드: **0.7.414** · 작성일 2026-11-10 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.413 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.413-public)
+[**0.7.414 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.414-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.413_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_413.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.413까지](CHANGES_0_7_159_TO_413.ko.md)
-- 직전 버전 0.7.411: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.411-public) · [사용 설명서](USER_GUIDE_0_7_411.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.411_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_411.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.414_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_414.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.414까지](CHANGES_0_7_159_TO_414.ko.md)
+- 직전 버전 0.7.413: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.413-public) · [사용 설명서](USER_GUIDE_0_7_413.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.413_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_413.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.414 - 선수 가져오기 대상 선수 수정 (GitHub #20)
+
+게임 2.3.0용입니다. 0.7.413 다음 변경(0.7.414)입니다. [자세한 내용](USER_GUIDE_0_7_414.ko.md) (310장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407·0.7.408·0.7.410·0.7.411·0.7.413을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **선수 가져오기 대상 선수 수정 (GitHub #20)**: 세이브 편집 › 가져오기 › 선수 가져오기에서 가져와 바꿀 대상 선수의 구종 칸에 게임이 쓴 추가 값이 있으면(팀 공유·에디트쉐어로 받은 선수에게 있을 수 있고, 야수도 해당) 외모만 골라도 ‘선택 선수의 … 구조를 확인하지 못했습니다’로 막히던 문제를 고쳤습니다. 0.7.411은 원본 선수 쪽만 고쳤습니다. 이제 이런 대상 선수에게도 구종·오리지널 구종을 뺀 항목(외모·투타 폼·능력·특능·음성콜 등)을 가져올 수 있고, 대상의 구종 칸은 그대로 둡니다. 구종·오리지널 구종을 체크하면 두 항목을 끄라는 안내가 나옵니다. DIRECT 선수 가져오기와 외모·능력 복사 보관소도 같은 규칙입니다.
+
+예전과 달라지는 점(0.7.413 대비): 구종 칸에 추가 값이 있는 대상 선수에게도 구종·오리지널 구종을 뺀 항목을 가져올 수 있습니다(예전: 고른 항목과 관계없이 거절). 각성 능력 복사는 구종을 함께 바꾸므로 이런 대상은 그대로 거절하되, 이제 그 이유를 알려 줍니다. 다른 대상과 원본은 그대로입니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.414도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16, #18, #19, #20) 덕분에 바로 원인을 찾아 고쳤고(0.7.414는 제보와 함께 올려 주신 세이브로 확인), 0.7.410·0.7.412의 새 기능도 GitHub 이슈(#17, #19) 건의로 만들었습니다.
 
 ## 0.7.413 - PCI 타격 스윙 타이밍 표시 · 무조건 파울을 일반 타격에도
 
@@ -35,7 +49,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.411 - GitHub 이슈 #18·#19·#20 수정
 
-게임 2.3.0용입니다. 0.7.410 다음 변경(0.7.411)입니다. [자세한 내용](USER_GUIDE_0_7_411.ko.md) (307장)
+게임 2.3.0용입니다. 0.7.410 다음 변경(0.7.411)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_411.ko.md) (307장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2079,12 +2093,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.413` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 앱 버전: `0.7.414` (공개판 · 출처 표시 포함, 게임 2.3.0용)
 - 파일 크기: `100,335,642 bytes`
 - SHA-256:
 
 ```text
-AE2B3A8BB9633312877C8689EECAA6101A31AB02B70DCFE46FE1107E0B450691
+AF3B3465E20A93BA25EA13FF2D5F5ED8C33563586B1F97E208A20D465233702B
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
