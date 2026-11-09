@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.415** · 작성일 2026-11-10 · 게임 **2.3.0**용
+공개 다운로드: **0.7.416** · 작성일 2026-11-10 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.415 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.415-public)
+[**0.7.416 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.416-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.415_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_415.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.415까지](CHANGES_0_7_159_TO_415.ko.md)
-- 직전 버전 0.7.414: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.414-public) · [사용 설명서](USER_GUIDE_0_7_414.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.414_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_414.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.416_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_416.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.416까지](CHANGES_0_7_159_TO_416.ko.md)
+- 직전 버전 0.7.415: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.415-public) · [사용 설명서](USER_GUIDE_0_7_415.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.415_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_415.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.416 - 에셋 스튜디오 GPU 미리보기 수정
+
+게임 2.3.0용입니다. 0.7.415 다음 변경(0.7.416)입니다. [자세한 내용](USER_GUIDE_0_7_416.ko.md) (312장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407·0.7.408·0.7.410·0.7.411·0.7.413·0.7.414·0.7.415를 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **에셋 스튜디오 GPU 미리보기 수정**: 에셋 스튜디오 › 선수 폼의 투구폼 애니메이션 편집에서 ‘GPU 3D 기본 Body 메시’ 탭을 열면 ‘GLFW can only be called from the main thread!’ 오류 창이 뜨고 3D 몸체가 나오지 않던 문제를 고쳤습니다(갤러리 제보). 같은 원인으로 3D 유니폼의 ‘GPU 재질 미리보기’와 ‘원본 3D 유니폼 창’ 안의 GPU 미리보기도 열리지 않았는데 함께 고쳐졌습니다. 에셋 스튜디오는 창마다 따로 작업 스레드를 쓰는데, 3D 표시 부품이 프로그램의 첫 스레드에서만 GPU 화면을 허용해서 생긴 문제였습니다.
+
+예전과 달라지는 점(0.7.415 대비): 에셋 스튜디오의 GPU 미리보기 창이 오류 없이 열립니다. 다른 화면과 기능, 저장 방식은 같습니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.416도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16, #18, #19, #20, #21)와 캡처를 붙인 갤러리 글 덕분에 바로 원인을 찾아 고쳤고(0.7.414는 제보와 함께 올려 주신 세이브, 0.7.416은 오류 창 캡처로 확인), 0.7.410·0.7.412·0.7.415의 새 기능도 GitHub 이슈(#17, #19, #21) 건의로 만들었습니다.
 
 ## 0.7.415 - 선발일 중계 계획 따르기 (GitHub #21)
 
@@ -34,7 +48,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.414 - 선수 가져오기 대상 선수 수정 (GitHub #20)
 
-게임 2.3.0용입니다. 0.7.413 다음 변경(0.7.414)입니다. [자세한 내용](USER_GUIDE_0_7_414.ko.md) (310장)
+게임 2.3.0용입니다. 0.7.413 다음 변경(0.7.414)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_414.ko.md) (310장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2107,12 +2121,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.415` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 앱 버전: `0.7.416` (공개판 · 출처 표시 포함, 게임 2.3.0용)
 - 파일 크기: `100,339,738 bytes`
 - SHA-256:
 
 ```text
-D58188039D17017DE22853366B61590E2DF2795B5659E9146CF222AA11B9E9B9
+34B0CC57D2A0B8B72646016C37D2F756F16275172BE66CFF4499B1344486154B
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
