@@ -1,22 +1,37 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.423** · 작성일 2026-11-13 · 게임 **2.3.0**용
+공개 다운로드: **0.7.424** · 작성일 2026-11-13 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.423 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.423-public)
+[**0.7.424 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.424-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.423_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_423.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.423까지](CHANGES_0_7_159_TO_423.ko.md)
-- 직전 버전 0.7.421: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.421-public) · [사용 설명서](USER_GUIDE_0_7_421.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.421_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_421.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.424_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_424.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.424까지](CHANGES_0_7_159_TO_424.ko.md)
+- 직전 버전 0.7.423: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.423-public) · [사용 설명서](USER_GUIDE_0_7_423.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.423_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_423.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.424 - 빠른 진행 1.1~1.9배 · 빅리그식 입력 진단 (GitHub #31 #25)
+
+게임 2.3.0용입니다. 0.7.423 다음 변경(0.7.424)입니다. [자세한 내용](USER_GUIDE_0_7_424.ko.md) (320장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407·0.7.408·0.7.410·0.7.411·0.7.413·0.7.414·0.7.415·0.7.416·0.7.417·0.7.418·0.7.419·0.7.420·0.7.421·0.7.423을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **빠른 진행 1.1~1.9배 (GitHub #31)**: 빠른 진행 (내 차례만 1배속)의 ‘배속’에 1.1배~1.9배가 생겼습니다. 게임의 고속 진행은 한 화면에 경기 계산을 정수 번(2배면 두 번) 하는 방식이라, 1.5배는 두 화면 중 한 화면에서만 계산을 한 번 더 하는 식으로 나눠 적용합니다(1.1배는 열 화면 중 한 화면). 내 타석·내 투구·내가 수비하는 타구가 1배속인 것과 2~10배의 동작은 그대로입니다.
+- **빅리그식 입력 진단 (GitHub #25)**: 키보드·마우스로 빅리그식 투구·타격을 쓸 때, 누른 키나 버튼이 들어갔는지와 들어가지 않았다면 그때 맨 앞에 있던 프로그램 이름을 로그 폴더의 `show-system-날짜.log`에 남깁니다(키 내용과 창 제목은 남기지 않음). 키보드·마우스 입력이 전혀 먹지 않는 PC의 원인을 찾기 위한 것으로, 동작은 바뀌지 않습니다.
+
+예전과 달라지는 점(0.7.423 대비): 2~10배와 다른 설정은 그대로입니다. 1.1~1.9배는 새 선택이고, 빅리그식 진단 로그에 입력 줄이 더해집니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.417도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16, #18, #19, #20, #21, #25)와 캡처를 붙인 갤러리 글 덕분에 바로 원인을 찾아 고쳤고(0.7.414는 제보와 함께 올려 주신 세이브, 0.7.416은 오류 창 캡처로 확인), 0.7.410·0.7.412·0.7.415·0.7.417의 새 기능도 GitHub 이슈(#17, #19, #21, #24) 건의로 만들었습니다.
 
 ## 0.7.423 - 감독 오더 그대로 · 불펜·마무리 투타겸업과 스타 라인업 직접 조정 함께 쓰기 (GitHub #23 #28)
 
@@ -35,7 +50,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.421 - 게임이 받은 입력 · 같은 구종 연속 보정 끄기 · 불펜·마무리 투타겸업 (GitHub #25 #27 #28)
 
-게임 2.3.0용입니다. 0.7.420 다음 변경(0.7.421)입니다. [자세한 내용](USER_GUIDE_0_7_421.ko.md) (317장)
+게임 2.3.0용입니다. 0.7.420 다음 변경(0.7.421)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_421.ko.md) (317장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2211,12 +2226,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.423` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,376,602 bytes`
+- 앱 버전: `0.7.424` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,379,162 bytes`
 - SHA-256:
 
 ```text
-B3878B70AE8B1CED15C2F807EC6EA8A41B4A45474AE706B045957E604DC6F210
+8C97879A2C762FA43433429FB0C6944E1060D67C3275A3EA20A6192821FA1679
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
