@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.426** · 작성일 2026-11-13 · 게임 **2.3.0**용
+공개 다운로드: **0.7.427** · 작성일 2026-11-13 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.426 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.426-public)
+[**0.7.427 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.427-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.426_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_426.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.426까지](CHANGES_0_7_159_TO_426.ko.md)
-- 직전 버전 0.7.425: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.425-public) · [사용 설명서](USER_GUIDE_0_7_425.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.425_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_425.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.427_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_427.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.427까지](CHANGES_0_7_159_TO_427.ko.md)
+- 직전 버전 0.7.426: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.426-public) · [사용 설명서](USER_GUIDE_0_7_426.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.426_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_426.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.427 - 빅리그식 입력 지연 진단 보강 (GitHub #25)
+
+게임 2.3.0용입니다. 0.7.426 다음 변경(0.7.427)입니다. [자세한 내용](USER_GUIDE_0_7_427.ko.md) (323장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407·0.7.408·0.7.410·0.7.411·0.7.413·0.7.414·0.7.415·0.7.416·0.7.417·0.7.418·0.7.419·0.7.420·0.7.421·0.7.423·0.7.424·0.7.425·0.7.426을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **빅리그식 입력 지연 진단 보강 (GitHub #25)**: 0.7.426의 진단 로그로 페넌트에서 입력 감시가 한 번에 1~12초씩 멈추는 것이 확인되어, 멈춘 순간의 지연 줄(tracker-slow)에 가장 오래 걸린 단계와 그 시간, 타격 기록 처리에서 기다린 시간과 계산한 시간, 그동안 실제로 일한 시간(스레드 CPU)을 더 남깁니다. 동작은 바뀌지 않습니다.
+
+예전과 달라지는 점(0.7.426 대비): 빅리그식 진단 로그의 지연 줄에 세부 시간이 더해집니다. 다른 동작은 그대로입니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.417도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16, #18, #19, #20, #21, #25)와 캡처를 붙인 갤러리 글 덕분에 바로 원인을 찾아 고쳤고(0.7.414는 제보와 함께 올려 주신 세이브, 0.7.416은 오류 창 캡처로 확인), 0.7.410·0.7.412·0.7.415·0.7.417의 새 기능도 GitHub 이슈(#17, #19, #21, #24) 건의로 만들었습니다.
 
 ## 0.7.426 - 감독 오더 그대로 다시 맞추기 · 빅리그식 입력 지연 진단 (GitHub #23 #25)
 
@@ -35,7 +49,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.425 - 감독 오더 그대로: 스타가 쉬는 날 수정 (GitHub #23)
 
-게임 2.3.0용입니다. 0.7.424 다음 변경(0.7.425)입니다. [자세한 내용](USER_GUIDE_0_7_425.ko.md) (321장)
+게임 2.3.0용입니다. 0.7.424 다음 변경(0.7.425)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_425.ko.md) (321장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2255,12 +2269,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.426` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,380,698 bytes`
+- 앱 버전: `0.7.427` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,382,746 bytes`
 - SHA-256:
 
 ```text
-C248657F3FC10B7BF2C3E8362E8CEC96E239845FFAB9ADE3203EF1DDE62CDC4D
+A4FCA1093BC34AE5FCA2ABCC32229B4073C8BD2F20E2D0B61F48A3F7DB2DAF81
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
