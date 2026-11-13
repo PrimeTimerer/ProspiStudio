@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.424** · 작성일 2026-11-13 · 게임 **2.3.0**용
+공개 다운로드: **0.7.425** · 작성일 2026-11-13 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.424 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.424-public)
+[**0.7.425 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.425-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.424_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_424.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.424까지](CHANGES_0_7_159_TO_424.ko.md)
-- 직전 버전 0.7.423: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.423-public) · [사용 설명서](USER_GUIDE_0_7_423.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.423_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_423.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.425_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_425.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.425까지](CHANGES_0_7_159_TO_425.ko.md)
+- 직전 버전 0.7.424: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.424-public) · [사용 설명서](USER_GUIDE_0_7_424.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.424_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_424.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.425 - 감독 오더 그대로: 스타가 쉬는 날 수정 (GitHub #23)
+
+게임 2.3.0용입니다. 0.7.424 다음 변경(0.7.425)입니다. [자세한 내용](USER_GUIDE_0_7_425.ko.md) (321장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407·0.7.408·0.7.410·0.7.411·0.7.413·0.7.414·0.7.415·0.7.416·0.7.417·0.7.418·0.7.419·0.7.420·0.7.421·0.7.423·0.7.424를 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **감독 오더 그대로: 스타가 쉬는 날 수정 (GitHub #23)**: 선발 등판 다음 날처럼 게임이 스타를 쉬게 하는 날에도 이 LAB이 스타를 감독 오더 자리에 넣어서, 라인업에는 선발로 나오지만 게임은 명단 제외로 처리해 경기를 할 수 없던 문제를 고쳤습니다. 이제 스타의 그날 역할을 읽어, 야수로 나가는 날만 스타를 감독 오더 자리에 넣고 쉬는 날에는 게임이 그 포지션에 넣은 선수를 그 자리에 둡니다(다른 여덟 명은 감독 오더 그대로). 선발 등판 다음 날에도 야수로 뛰려면 이도류 옵션 2(선발일 다음날에도 야수 출장)를 켜세요. 선발 등판일의 지명타자 배치는 그대로입니다.
+
+예전과 달라지는 점(0.7.424 대비): 감독 오더 그대로를 켠 채 게임이 스타를 쉬게 하는 날에는 스타가 라인업에 들어가지 않습니다(전에는 라인업에만 들어가고 경기는 못 함). 야수로 나가는 날, 선발 등판일, LAB을 끈 상태는 그대로입니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.417도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16, #18, #19, #20, #21, #25)와 캡처를 붙인 갤러리 글 덕분에 바로 원인을 찾아 고쳤고(0.7.414는 제보와 함께 올려 주신 세이브, 0.7.416은 오류 창 캡처로 확인), 0.7.410·0.7.412·0.7.415·0.7.417의 새 기능도 GitHub 이슈(#17, #19, #21, #24) 건의로 만들었습니다.
 
 ## 0.7.424 - 빠른 진행 1.1~1.9배 · 빅리그식 입력 진단 (GitHub #31 #25)
 
@@ -35,7 +49,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.423 - 감독 오더 그대로 · 불펜·마무리 투타겸업과 스타 라인업 직접 조정 함께 쓰기 (GitHub #23 #28)
 
-게임 2.3.0용입니다. 0.7.421 다음 변경(0.7.422~0.7.423)입니다. [자세한 내용](USER_GUIDE_0_7_423.ko.md) (318~319장)
+게임 2.3.0용입니다. 0.7.421 다음 변경(0.7.422~0.7.423)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_423.ko.md) (318~319장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2226,12 +2240,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.424` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 앱 버전: `0.7.425` (공개판 · 출처 표시 포함, 게임 2.3.0용)
 - 파일 크기: `100,379,162 bytes`
 - SHA-256:
 
 ```text
-8C97879A2C762FA43433429FB0C6944E1060D67C3275A3EA20A6192821FA1679
+01861E450B84488E7E2735DA875D4A47C96178BF1A594E42FA18252991394DF2
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
