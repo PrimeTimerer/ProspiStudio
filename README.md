@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.431** · 작성일 2026-11-14 · 게임 **2.3.0**용
+공개 다운로드: **0.7.432** · 작성일 2026-11-15 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.431 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.431-public)
+[**0.7.432 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.432-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.431_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_431.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.431까지](CHANGES_0_7_159_TO_431.ko.md)
-- 직전 버전 0.7.430: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.430-public) · [사용 설명서](USER_GUIDE_0_7_430.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.430_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_430.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.432_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_432.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.432까지](CHANGES_0_7_159_TO_432.ko.md)
+- 직전 버전 0.7.431: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.431-public) · [사용 설명서](USER_GUIDE_0_7_431.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.431_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_431.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.432 - WBC에서도 공통 경기 기능 (GitHub #34)
+
+게임 2.3.0용입니다. 0.7.431 다음 변경(0.7.432)입니다. [자세한 내용](USER_GUIDE_0_7_432.ko.md) (328장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407·0.7.408·0.7.410·0.7.411·0.7.413·0.7.414·0.7.415·0.7.416·0.7.417·0.7.418·0.7.419·0.7.420·0.7.421·0.7.423·0.7.424·0.7.425·0.7.426·0.7.427·0.7.428·0.7.429·0.7.430·0.7.431을 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **WBC에서도 공통 경기 기능 (GitHub #34)**: WBC 2026 모드 경기에서는 적용 대상을 어떻게 골라도 F6·F7·F8, 번호키와 그 개별 기능(베스트 피치·베스트 히팅·실전 투수 체력 등)이 작동하지 않던 문제를 고쳤습니다. Studio가 WBC 경기를 공통 경기 기능을 쓰는 경기로 인정하지 않던 것이 원인입니다. WBC 경기는 페넌트처럼 팀을 조작하는 경기라서, 공통 경기기능 · 적용 대상에서 ‘내 팀 전체’(또는 ‘내 팀 선수 여러 명 선택’)를 골라야 적용됩니다. 기본값 ‘직접 조작 선수’는 스타플레이어처럼 조작 선수가 정해진 경기에서만 적용됩니다.
+
+예전과 달라지는 점(0.7.431 대비): WBC 2026 경기에서도 켜 둔 공통 경기 기능이 적용됩니다(적용 대상이 ‘내 팀 전체’나 ‘내 팀 선수 여러 명 선택’일 때). 다른 모드의 동작은 그대로입니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.417도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16, #18, #19, #20, #21, #25)와 캡처를 붙인 갤러리 글 덕분에 바로 원인을 찾아 고쳤고(0.7.414는 제보와 함께 올려 주신 세이브, 0.7.416은 오류 창 캡처로 확인), 0.7.410·0.7.412·0.7.415·0.7.417의 새 기능도 GitHub 이슈(#17, #19, #21, #24) 건의로 만들었습니다.
 
 ## 0.7.431 - 능력별 CPU 난이도 (LAB)
 
@@ -34,7 +48,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.430 - 선발일 중계: 중계 계획 당일 유지 (GitHub #32)
 
-게임 2.3.0용입니다. 0.7.429 다음 변경(0.7.430)입니다. [자세한 내용](USER_GUIDE_0_7_430.ko.md) (326장)
+게임 2.3.0용입니다. 0.7.429 다음 변경(0.7.430)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_430.ko.md) (326장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2325,12 +2339,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.431` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 앱 버전: `0.7.432` (공개판 · 출처 표시 포함, 게임 2.3.0용)
 - 파일 크기: `100,404,250 bytes`
 - SHA-256:
 
 ```text
-FA14A386B415767B0B2FC1DFF17F244442E3D732765D0C288ADA480783188BF4
+A1D9AAB2C02B40CE4BA8F3AE90BC3292431BCC0AB8CE25298473F48F5D4A7F86
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
