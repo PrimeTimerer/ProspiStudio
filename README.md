@@ -1,22 +1,36 @@
 # ProspiStudio · PROSPI 26 STUDIO
 
-공개 다운로드: **0.7.434** · 작성일 2026-11-16 · 게임 **2.3.0**용
+공개 다운로드: **0.7.436** · 작성일 2026-11-16 · 게임 **2.3.0**용
 
 프로스피 PC판의 선수·구단·성장·아이템 등을 조정하는 비공식 도구입니다. **로컬·오프라인 싱글플레이 전용**이며 온라인 플레이는 지원하지 않습니다.
 
 ## 다운로드
 
-[**0.7.434 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.434-public)
+[**0.7.436 공개 단일 실행파일 다운로드 페이지**](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.436-public)
 
 위 페이지의 **Assets → `Prospi26Studio.Single.exe`**를 받으세요. GitHub가 자동 제공하는 **Source code (zip/tar.gz)는 실행파일이 아닙니다.** 아래에 사용법 전체를 정리했습니다.
 
 이 저장소는 배포와 사용 안내용이며, 전체 개발 소스 공개 저장소는 아닙니다.
 
-- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.434_사용설명서.pdf)
-- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_434.ko.md)
-- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.434까지](CHANGES_0_7_159_TO_434.ko.md)
-- 직전 버전 0.7.433: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.433-public) · [사용 설명서](USER_GUIDE_0_7_433.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.433_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_433.ko.md)
+- [전체 사용 설명서 PDF](manual/PROSPI26_Studio_0.7.436_사용설명서.pdf)
+- [웹에서 읽는 사용 설명서](USER_GUIDE_0_7_436.ko.md)
+- [지난 공개판 이후 전체 변경 기록 0.7.159부터 0.7.436까지](CHANGES_0_7_159_TO_436.ko.md)
+- 직전 버전 0.7.434: [다운로드 페이지](https://github.com/PrimeTimerer/ProspiStudio/releases/tag/v0.7.434-public) · [사용 설명서](USER_GUIDE_0_7_434.ko.md) · [PDF](manual/PROSPI26_Studio_0.7.434_사용설명서.pdf) · [릴리스 노트](RELEASE_NOTES_0_7_434.ko.md)
 - 그보다 이전 버전의 문서: [이전버전 폴더](이전버전/README.md)
+
+## 0.7.436 - 시작 기록에 다른 회사 파일 목록 (갤러리·GitHub #36 제보)
+
+게임 2.3.0용입니다. 0.7.434 다음 변경(0.7.435~0.7.436)입니다. [자세한 내용](USER_GUIDE_0_7_436.ko.md) (331장)
+
+English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
+
+0.7.323·0.7.329·0.7.331·0.7.357·0.7.359·0.7.361·0.7.367·0.7.378·0.7.380·0.7.383·0.7.384·0.7.385·0.7.386·0.7.387·0.7.388·0.7.389·0.7.390·0.7.391·0.7.394·0.7.395·0.7.396·0.7.397·0.7.398·0.7.400·0.7.401·0.7.404·0.7.405·0.7.406·0.7.407·0.7.408·0.7.410·0.7.411·0.7.413·0.7.414·0.7.415·0.7.416·0.7.417·0.7.418·0.7.419·0.7.420·0.7.421·0.7.423·0.7.424·0.7.425·0.7.426·0.7.427·0.7.428·0.7.429·0.7.430·0.7.431·0.7.432·0.7.433·0.7.434를 쓰고 있으면 Studio를 켤 때 업데이트 창이 뜹니다(‘지금 업데이트’를 누르면 받고 다시 켬). 0.7.320 이하는 직접 받으세요.
+
+- **시작 기록에 다른 회사 파일 목록 (갤러리·GitHub #36 제보)**: Studio가 화면 엔진(WebView2)을 열기 직전에, Studio 안에 들어와 있는 Microsoft·Studio 외 파일(다른 프로그램이 넣은 파일 등)의 이름·회사·폴더를 시작 기록에 한 줄로 남깁니다. 켜지자마자 꺼지는 PC에서 만든 진단 보고서는 충돌로 꺼진 실행에 Windows 폴더 밖의 이 파일들을 함께 적어, 어떤 프로그램을 꺼 볼지 알려 줍니다. 충돌한 곳이 어느 파일에도 속하지 않을 때의 안내도 더했습니다. Studio의 다른 기능은 바뀌지 않습니다.
+
+예전과 달라지는 점(0.7.434 대비): 시작 기록에 다른 회사 파일 목록 한 줄이 더해지고(시작이 잠깐 늦어질 수 있지만 0.4초를 넘지 않음), 진단 보고서의 충돌 안내에 그 파일들이 함께 나옵니다. 다른 동작은 그대로입니다.
+
+문제 제보는 [GitHub 이슈](https://github.com/PrimeTimerer/ProspiStudio/issues)에 화면 캡처, Studio 버전, 로그와 함께 올려 주세요(자세한 방법은 아래 0.7.405 항목). 0.7.406~0.7.417도 화면 캡처, Studio 버전, 재현 순서가 정확히 적힌 GitHub 이슈(#15, #16, #18, #19, #20, #21, #25)와 캡처를 붙인 갤러리 글 덕분에 바로 원인을 찾아 고쳤고(0.7.414는 제보와 함께 올려 주신 세이브, 0.7.416은 오류 창 캡처로 확인), 0.7.410·0.7.412·0.7.415·0.7.417의 새 기능도 GitHub 이슈(#17, #19, #21, #24) 건의로 만들었습니다.
 
 ## 0.7.434 - 진단 보고서에 충돌한 파일 표시 (갤러리 제보)
 
@@ -34,7 +48,7 @@ English: choose **Language → English** at the bottom of the left menu. Menus, 
 
 ## 0.7.433 - 베이스 커버도 직접 수비 (GitHub #33)
 
-게임 2.3.0용입니다. 0.7.432 다음 변경(0.7.433)입니다. [자세한 내용](USER_GUIDE_0_7_433.ko.md) (329장)
+게임 2.3.0용입니다. 0.7.432 다음 변경(0.7.433)입니다. [자세한 내용](이전버전/USER_GUIDE_0_7_433.ko.md) (329장)
 
 English: choose **Language → English** at the bottom of the left menu. Menus, buttons, tabs, card titles and short notes are in English; longer descriptions are still Korean.
 
@@ -2367,12 +2381,12 @@ Studio 버전:
 ## 11. 이 파일의 확인 정보
 
 - 파일명: `Prospi26Studio.Single.exe`
-- 앱 버전: `0.7.434` (공개판 · 출처 표시 포함, 게임 2.3.0용)
-- 파일 크기: `100,419,098 bytes`
+- 앱 버전: `0.7.436` (공개판 · 출처 표시 포함, 게임 2.3.0용)
+- 파일 크기: `100,426,778 bytes`
 - SHA-256:
 
 ```text
-0A467D50DE6FFE37867EF3533F616892D05659984EF3F5FD0AF57C18A5603411
+6394704AC5E234DBC8F4EB0EB872FBA7E58714C93B41BC1708F7D574ACDF4523
 ```
 
 같은 폴더에서 PowerShell로 확인하려면:
